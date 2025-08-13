@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(41, 39, 39);
+}
+
+.videoplayback {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.videoplayback video{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.videoplayback table{
+    position: absolute;
+    background-color: rgba(71, 70, 70, 0.904);
+}
+
+.btn {
+    padding: 0.6rem 10.0rem;
+    background-color: rgba(24, 24, 117, 0.829);
+    text-decoration: none;
+    color: rgba(240, 255, 255, 0.76);
+    border-radius: 2x;
+    font-size: 14px;
+    transition: 0.5s;   
+}
+
+.isi {
+    font-family: "rajdhani";
+    text-align: justify;
+    font-size: 93%;
+}
+
+.judul {
+    font-family: "kaushan script", sans-serif;
+}
+
+.btn2 {
+    padding: 0.6rem 26.0rem;
+    background-color: rgba(24, 24, 117, 0.829);
+    text-decoration: none;
+    color: rgba(240, 255, 255, 0.76);
+    border-radius: 2x;
+    font-size: 14px;
+    transition: 0.5s; 
+}
